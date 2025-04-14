@@ -1,41 +1,27 @@
-# Dash
-En este repositorio se pone en práctica la implementación de  dash para presentar los resultados obtenidos.
+# YouTube trends and advertising campaigns
+Analyze video trend history on YouTube for the advertising agency Sterling & Draper, generating a presentation of the results in the Tableau platform for video advertising planning managers.
 
-# Descripción del trabajo
+## 🏁Objetive
+Implement the dash implementation to present the results obtained.
 
-Trabajas como analista de vídeos publicitarios en la agencia de publicidad Sterling & Draper. Dedicas mucho tiempo a analizar tendencias de vídeos en YouTube para determinar qué contenido merece atención para la mercadotecnia.
+## 🖥Technologies used
+- **Python**: Pandas, Tableau Public
+- **Jupyter Notebook**: Interactive environment for analysis.
+- **CSV Dataset**: Contains user behavior data.
 
-Cada video tiene una categoría específica (entretenimiento, música, noticias y política, etc.), una región y una fecha en que se hace tendencia.
+## 🔑Key Steps
+1. **Data Description**:
+   - Assessed the quality of the dataset and summarized its structure.
+2. **Data Preprocessing**:
+   - Handled missing values, corrected formatting issues, and removed duplicates.
+3. **Presentation of results**:
+   - Creating charts in Tableau Public.
 
-Un video puede estar en la sección de tendencias durante varios días seguidos.
+## 🥇🏆Results
+The analysis confirms that:
+- The entertainment category is the most popular for all countries evaluated.
+- Link for data visualization:
+https://public.tableau.com/app/profile/gabriela.rivera6016/viz/Libro1_17377608158840/Dashboard1?publish=yes
 
-Cada semana, las nuevas empleadas Melanie y Ashok te preguntan esto:
-
-¿Qué categorías estaban en las tendencias de la semana pasada?
-¿Cómo se distribuyeron en diversas regiones?
-¿Qué categorías fueron particularmente populares en los Estados Unidos?
-
-reuniste unos requisitos técnicos:
-
-Objetivo de negocios: analizar el historial de tendencias de videos en YouTube
-
-Con qué frecuencia se usará el dashboard: al menos una vez al día
-
-Usuario objetivo del dashboard: gerentes de planificación de videos publicitarios
-
-Contenido de los datos del dashboard:
-Tendencias pasadas de videos, ordenadas por día y categoría
-Tendencias de videos, ordenadas por país
-Una tabla de correspondencia entre categorías y países
-Parámetros para agrupar los datos:
-Fecha y hora de tendencia
-Categoría de video
-País
-
-Los datos:
-Historial de tendencias — valores absolutos ordenados por día (dos gráficos: números absolutos y proporción de porcentaje)
-Eventos, ordenados por país — valores relativos (% de eventos)
-La correspondencia entre las categorías y los países — valores absolutos (una tabla)
-Importancia: todaos los gráficos son igualmente importantes
 
 
